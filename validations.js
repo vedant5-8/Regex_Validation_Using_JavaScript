@@ -1,6 +1,6 @@
-// UC 1 - The Postal Index Number (PIN) or PIN Code is a 6 digit code of Post Office numbering used by India Post."
+// UC 2 - Restrict the PIN code from taking alphabets or special characters at the beginning.
 
-let PinCode = 400088;
+let PinCode = "A400088";
 
 let PinCodeRE = RegExp('^[1-9][0-9]{5}$');
 
