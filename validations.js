@@ -1,4 +1,4 @@
-// UC 2 - Restrict the PIN code from taking alphabets or special characters at the End.
+// UC 3 - Restrict the PIN code from taking alphabets or special characters at the End.
 
 let PinCode = "400088B";
 
