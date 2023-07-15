@@ -1,6 +1,6 @@
-// UC 2 - Restrict the PIN code from taking alphabets or special characters at the beginning.
+// UC 2 - Restrict the PIN code from taking alphabets or special characters at the End.
 
-let PinCode = "A400088";
+let PinCode = "400088B";
 
 let PinCodeRE = RegExp('^[1-9][0-9]{5}$');
 
