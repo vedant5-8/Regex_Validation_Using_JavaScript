@@ -1,4 +1,4 @@
-// UC 2 - Ensure @ and validate the mandatory 2nd part i.e. bridgelabz
+// UC 2 - Ensure @ and validate the mandatory 2nd part i.e. bridgelabz.
 
 let email = 'abc.xyzbridgelabz.co.in';
 
