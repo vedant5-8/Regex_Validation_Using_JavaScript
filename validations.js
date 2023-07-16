@@ -1,12 +1,20 @@
-// UC 3 - Restrict the PIN code from taking alphabets or special characters at the End.
+// UC 4 - Make sure 400 088 is also valid along with 400088.
 
-let PinCode = "400088B";
+let PinCode1 = '400 088';
+let PinCode2 = '400088';
 
-let PinCodeRE = RegExp('^[1-9][0-9]{5}$');
+let PinCodeRE = RegExp('^[1-9][0-9]{2}[ ]?[0-9]{3}$');
 
-if (PinCodeRE.test(PinCode)) {
-    console.log("Valid Pin Code.");
+if (PinCodeRE.test(PinCode1)) {
+    console.log(PinCode1 + " is valid Pin Code.");
 }
 else {
-    console.log("Invalid Pin Code.");
+    console.log(PinCode1 + " is invalid Pin Code.");
+}
+
+if (PinCodeRE.test(PinCode1)) {
+    console.log(PinCode2 + " is valid Pin Code.");
+}
+else {
+    console.log(PinCode2 + " is invalid Pin Code.");
 }
