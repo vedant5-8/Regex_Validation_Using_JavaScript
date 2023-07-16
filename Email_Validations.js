@@ -1,6 +1,6 @@
-// UC 3 - Ensure “.” after bridgelabz and validate the mandatory 3rd part i.e. co
+// UC 4 - Lets handle optional part i.e. xyz in abc.xyz@bridgelabz.co.in
 
-let email = 'abc.xyz@bridgelabz.';
+let email = 'abc+xyz@bridgelabz.co.in';
 
 let EmailRE = RegExp('^[0-9a-zA-Z]+[+._-]{0,1}[0-9a-zA-Z]+[@][a-zA-Z0-9]+[.][a-zA-Z]{2,3}([.][a-zA-Z]{2,3}){0,1}$');
 
