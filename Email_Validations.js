@@ -1,4 +1,4 @@
-// UC 4 - Lets handle optional part i.e. xyz in abc.xyz@bridgelabz.co.in
+// UC 4 - Finally lets close the expression with supporting optional parts.
 
 let email = 'abc+xyz@bridgelabz.co.in';
 
